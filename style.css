@@ -1,3 +1,7 @@
+.pointer 
+{
+	cursor:pointer;
+}
 /*----navigation-----*/
 *
 {
@@ -70,7 +74,6 @@
 
 #about{
 	padding-top: 50px;
-	padding-bottom: 50px;
 	color: #555;
 }
 
@@ -86,6 +89,9 @@
 	padding-top: 20px;
 }
 
+.abt{
+	margin-top:4%;
+}
 .skills-bar p
 {
 	margin-bottom: 6px;
@@ -109,9 +115,21 @@
 
 #Interest
 {
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 75px;
+	padding-bottom: 5px;
 	color: #555;
+}
+
+h1#inst
+{
+	margin-top: 1%;
+	text-align: center;
+	color: #555!important;
+}
+
+.marg
+{
+	margin-top: -2%;	
 }
 
 h1
@@ -168,8 +186,13 @@ h1::after
 
 #projects
 {
-	padding: 40px 0;
+	margin: 2%;
+	padding: 40px 0px 120px 0px;
 	background: #efefef;
+}
+
+h1#proj{
+	margin-top:5%;
 }
 .single-project
 {
@@ -237,6 +260,9 @@ ul li:last-child
 {
 	padding-top: 50px;
 	padding-bottom: 50px;
+}
+h1#blog{
+	margin-top:5%;
 }
 #blogs .row
 {
@@ -307,6 +333,9 @@ blockquote::after
 	padding-top: 40px;
 	padding-bottom: 40px;
 	color: #777;
+}
+h1#cont{
+	margin-top:5%;
 }
 .contact-form
 {
