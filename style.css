@@ -2,6 +2,11 @@
 {
 	cursor:pointer;
 }
+
+af.blogLink
+{
+	text-decoration: none;
+}
 /*----navigation-----*/
 *
 {
@@ -275,6 +280,21 @@ h1#blog{
 .profile
 {
 	padding: 70px 10px 10px;
+	background-color: #efefef;
+}
+.pro1
+{
+	padding: 70px 10px 60px 30PX;
+	background-color: #efefef;
+}
+.pro2
+{
+	padding: 70px 10px 30px 10PX;
+	background-color: #efefef;
+}
+.pro3
+{
+	padding: 70px 10px 60PX 10px;
 	background-color: #efefef;
 }
 .blog1
